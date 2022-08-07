@@ -10,3 +10,5 @@ c = b[1].split("@")
 print(c)
 
 print("Answer:",c[1])
+
+#split兩次拆出地址
