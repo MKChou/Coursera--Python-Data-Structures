@@ -1,3 +1,13 @@
-x = { 'chuck' : 1 , 'fred' : 42, 'jan': 100}
-y = x.items()
-print(type(y))
+
+lst = list()
+aaa = {'Kevin': 3, 'Yoga': 1, 'Amy': 3, 'Cindy': 1}
+
+for k,v in aaa.items():
+    print(k,v)
+    lst.append ((v,k))
+
+lst = sorted(lst)
+print(lst)
+
+lst = sorted(lst,reverse=True)
+print(lst)
