@@ -4,5 +4,5 @@ for aaa,bbb in qqq.items():
     print(aaa,bbb)
 
 #because .items()
-# aaa = key
-# bbb = value
+# aaa = keys
+# bbb = values
